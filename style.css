@@ -153,6 +153,27 @@ body {
   display: grid;
   grid-template-columns: repeat(2, auto);
   align-items: start;
+  position: relative;
+}
+.section--with-bg {
+  padding: 11rem 0;
+}
+.section--with-bg::after {
+  content: "";
+  width: 100vw;
+  height: 100%;
+  background-color: var(--color-grey);
+  position: absolute;
+  z-index: -1;
+  justify-self: center;
+}
+.h2__heading {
+  grid-column: 1/-1;
+  font-size: var(--font-size-65);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-raleway);
+  text-transform: uppercase;
+  margin-bottom: 8.7rem;
 }
 /* global end */
 
@@ -243,3 +264,31 @@ body {
 .bio__pic {
   width: 42.7rem;
 }
+/* End Bio */
+
+/* Skills */
+.skills__list {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills__item {
+  flex: 1 0 33%;
+  margin-bottom: 5rem;
+}
+.skills__item:hover {
+  text-shadow: 0 0 2px var(--color-green);
+  user-select: none;
+}
+.skills__title {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills__years {
+  display: inline-block;
+  font-size: var(--font-size-20);
+  margin-top: 1rem;
+}
+/* End Skills */
