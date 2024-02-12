@@ -77,6 +77,15 @@ body {
   max-width: calc(var(--container-width) + var(--gutter) * 2);
   padding-inline: var(--gutter);
 }
+.video-loop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.08;
+  z-index: -1;
+}
 .header {
   padding: 3rem 0;
   position: relative;
@@ -292,3 +301,13 @@ body {
   margin-top: 1rem;
 }
 /* End Skills */
+
+/* media */
+.media {
+  align-items: center;
+  justify-content: center;
+}
+.media__video {
+  max-width: 100%;
+}
+/* end media */
