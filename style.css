@@ -423,3 +423,11 @@ form:invalid::after {
   color: var(--color-red);
 }
 /* end contact */
+
+/* footer */
+.footer {
+  padding: 1rem 0;
+  font-size: var(--font-size-15);
+  border-top: 0.1rem solid;
+}
+/* end footer */
