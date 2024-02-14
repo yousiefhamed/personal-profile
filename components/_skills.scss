@@ -1,0 +1,24 @@
+.skills__list {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills__item {
+  flex: 1 0 33%;
+  margin-bottom: 5rem;
+}
+.skills__item:hover {
+  text-shadow: 0 0 2px var(--color-green);
+  user-select: none;
+}
+.skills__title {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills__years {
+  display: inline-block;
+  font-size: var(--font-size-20);
+  margin-top: 1rem;
+}

@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 11rem;
+}
+a {
+  color: inherit;
+  display: inline-block;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: none;
+}
+ul,
+ol {
+  list-style: none;
+}
