@@ -30,7 +30,7 @@ In this project, I aimed to delve into the world of animation, responsive web de
 
 - HTML
 - CSS/Sass
-- Other relevant technologies used in your project
+- Javascript
 
 ## Installation
 
@@ -44,9 +44,9 @@ Follow these steps to set up the project locally:
 
 Explore and interact with the personal profile to see the implemented features.
 
-## Screenshots
+<!-- ## Screenshots
 
-Include screenshots of the profile to showcase the design and features.
+Include screenshots of the profile to showcase the design and features. -->
 
 ## Demo
 
