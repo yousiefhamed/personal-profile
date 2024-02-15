@@ -44,9 +44,14 @@ Follow these steps to set up the project locally:
 
 Explore and interact with the personal profile to see the implemented features.
 
-<!-- ## Screenshots
+## Screenshots
 
-Include screenshots of the profile to showcase the design and features. -->
+- ### Light Theme
+
+<img src="./images/screenshots/Screenshot from 2024-02-16 00-58-13.png">
+
+- ### Dark Theme
+<img src="./images/screenshots/Screenshot from 2024-02-16 00-58-04.png">
 
 ## Demo
 
