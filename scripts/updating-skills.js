@@ -1,7 +1,7 @@
 document.querySelector(".find-out-link").remove();
 document.querySelector("img.bio__pic").style.width = "36rem";
 
-const skills = document.querySelectorAll(".skills__item");
+let skills = document.querySelectorAll(".skills__item");
 
 const addSkills = (previousSiblingSkillName, newSkillName, experienceYears) => {
   const newSkill = `
@@ -31,6 +31,7 @@ updateSkills("Redux", "Node.js");
 updateSkills("React testing library", "MongoDB");
 addSkills("Javascript", "Typescript", 2);
 
+skills = document.querySelectorAll(".skills__item");
 skills.forEach((skill) => {
   skill.addEventListener("click", () => {
     const underlines = document.querySelectorAll(".underline");
