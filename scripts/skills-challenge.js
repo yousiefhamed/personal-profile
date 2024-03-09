@@ -62,7 +62,7 @@ const addSkill = (skillName, experience, type) => {
 };
 
 const skillsElements = skillsArray
-  .map(({ skillName, experience, type }) => addSkill(skillName, experience, type));
+  .map(({ skillName, experience, type }) => addSkill(skillName, experience, type)).join("");
 
 skillsContainer.appendChild(document.createRange().createContextualFragment(skillsElements));
 
