@@ -120,32 +120,17 @@
 
       <section id="skills" class="skills section section--with-bg">
         <h2 class="h2__heading">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__item" data-name="HTML">
-            <h2 class="skills__title">HTML</h2>
-            <span class="skills__years">8 years</span>
-          </li>
-          <li class="skills__item" data-name="CSS">
-            <h2 class="skills__title">CSS</h2>
-            <span class="skills__years">8 years</span>
-          </li>
-          <li class="skills__item" data-name="Javascript">
-            <h2 class="skills__title">Javascript</h2>
-            <span class="skills__years">8 years</span>
-          </li>
-          <li class="skills__item" data-name="React">
-            <h2 class="skills__title">React</h2>
-            <span class="skills__years">4 years</span>
-          </li>
-          <li class="skills__item" data-name="Redux">
-            <h2 class="skills__title">Redux</h2>
-            <span class="skills__years">3 years</span>
-          </li>
-          <li class="skills__item" data-name="React testing library">
-            <h2 class="skills__title">React testing library</h2>
-            <span class="skills__years">1 year</span>
-          </li>
-        </ul>
+        <div class="skills__filters">
+          <button
+            class="skills__button skills__button--isActive"
+            data-type="all"
+          >
+            All
+          </button>
+          <button class="skills__button" data-type="frontend">Frontend</button>
+          <button class="skills__button" data-type="backend">Backend</button>
+        </div>
+        <ul class="skills__list"></ul>
       </section>
 
       <section id="media" class="media section">
@@ -338,6 +323,7 @@
       <footer class="footer">&copy; 2022 by Youssef Hamed</footer>
     </div>
     <script src="./scripts/script.js"></script>
-    <script src="./scripts/updating-skills.js"></script>
+    <!--<script src="./scripts/updating-skills.js"></script>-->
+    <script src="./scripts/skills-challenge.js"></script>
   </body>
 </html>

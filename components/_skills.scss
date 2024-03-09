@@ -32,3 +32,32 @@
   left: 0;
   bottom: -20px;
 }
+
+.skills {
+  &__filters {
+    grid-column: 1/-1;
+    margin-top: -8rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  &__button {
+    border: 1px solid var(--color-text);
+    border-radius: 0.4rem;
+    padding: 0.2rem 1rem;
+
+    &--isActive {
+      background-color: var(--color-text);
+      color: var(--color-background);
+    }
+  }
+
+  &__list.frontend li:not([data-type="frontend"]) {
+    display: none;
+  }
+
+  &__list.backend li:not([data-type="backend"]) {
+    display: none;
+  }
+}
